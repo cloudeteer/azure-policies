@@ -1,0 +1,37 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "BITBW.Allowed locations for Deployment",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/e56962a6-4747-49cd-b67b-bf8b01975c4c",
+  "scope": "/providers/Microsoft.Management/managementGroups/BITBW",
+  "notScopes": [],
+  "parameters": {
+   "listOfAllowedLocations": {
+    "value": [
+     "germanynorth",
+     "germanywestcentral",
+     "westeurope",
+     "northeurope"
+    ]
+   }
+  },
+  "description": "Allowed locations for Deployment",
+  "metadata": {
+   "assignedBy": "Gerald Fehringer",
+   "parameterScopes": {
+    "listOfAllowedLocations": "/providers/Microsoft.Management/managementGroups/BITBW"
+   },
+   "createdBy": "8b1920ec-a7f2-41b8-9232-6342913d0c2f",
+   "createdOn": "2020-12-23T14:40:39.4322753Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/providers/Microsoft.Management/managementGroups/BITBW/providers/Microsoft.Authorization/policyAssignments/bd929908f02247c2944f9122",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "bd929908f02247c2944f9122"
+}
